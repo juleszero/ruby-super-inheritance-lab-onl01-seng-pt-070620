@@ -1,4 +1,3 @@
-#require_relative "./lib/student.rb"
 class ChattyStudent < Student
   
   def hello
@@ -7,7 +6,7 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    puts (super) * 10
+    puts 
   end
   
 end
